@@ -1,6 +1,5 @@
-function sumPrimes(num) {
+function primes(num) {
     let arr = []
-    let res = []
     for(let i=num;i>2;i--){
       if(i%2){
         arr.unshift(i)
@@ -24,4 +23,3 @@ function sumPrimes(num) {
     return arr;
   }
   
-  console.log(sumPrimes(30))
